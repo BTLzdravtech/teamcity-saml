@@ -14,7 +14,7 @@
     <div>
         <form action="<c:url value='${SAMLLoginURL}'/>" method="GET">
             <input class="btn loginButton" style="margin: auto; display: block" type="submit" name="submitLogin"
-                   value="Log in via SAML">
+                   value="Log in via BTL Keycloak">
         </form>
     </div>
 </c:if>
